@@ -183,7 +183,6 @@ const FormSearch = () => {
                                     <MenuItem value={'London'}>London</MenuItem>
                                     <MenuItem value={'Venice'}>Venice</MenuItem>
                                     <MenuItem value={'Miami'}>Miami</MenuItem>
-                                    <MenuItem value={'Miami'}>Miami</MenuItem>
                                     <MenuItem value={'Prague'}>Prague</MenuItem>
                                     <MenuItem value={'Hong Kong'}>
                                           Hong Kong
