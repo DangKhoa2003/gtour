@@ -1,0 +1,18 @@
+.card-place {
+      grid-column: span 1 / span 1;
+      height: 300px;
+      border-radius: 8px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      top: 0;
+      left: 0;
+
+      &:hover {
+            transform: translateY(-10px);
+            transition: all linear 0.3s;
+            cursor: pointer;
+            box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
+      }
+}

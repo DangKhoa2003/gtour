@@ -1,0 +1,49 @@
+.main-nav {
+      display: flex;
+      align-items: center;
+
+      .nav-link {
+            position: relative;
+            top: 0;
+            left: 0;
+            margin: 0 8px;
+
+            .nav-span {
+                  background: transparent;
+                  font-weight: 600;
+                  display: flex;
+                  align-items: center;
+            }
+
+            .subNav-content {
+                  position: absolute;
+                  top: 30px;
+                  left: 0px;
+                  display: none;
+                  background-color: white;
+                  border-radius: 12px;
+                  color: black;
+            }
+      }
+
+      .nav-link:hover .subNav-content {
+            display: block;
+            transition: all linear 0.3s;
+      }
+
+      .drawer-button {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .link-social {
+            color: black;
+            transition: all linear 0.2s;
+      }
+
+      .btn-close {
+            border-radius: 50%;
+            background: black;
+            width: 50%;
+      }
+}

@@ -1,0 +1,25 @@
+.footer {
+      background-color: black;
+      padding: 4rem 0rem;
+
+      .footer-item {
+            grid-column: span 1 / span 1;
+
+            h1 {
+                  font-size: 1.2rem;
+                  font-weight: 800;
+                  text-transform: capitalize;
+            }
+
+            p {
+                  margin-top: 1.4rem;
+                  color: #ccc;
+                  display: flex;
+                  align-items: center;
+            }
+
+            .footer-brands {
+                  margin-top: 1.4rem;
+            }
+      }
+}
